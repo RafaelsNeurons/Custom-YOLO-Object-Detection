@@ -51,15 +51,15 @@ OPENCV =1
     
     in line 22 change steps=1800
    
-   [convolutional] and [yolo] layer
+
     in line 961,968 change filters = 18      # filters = (classes+5)*3 , so you have to change it to your amount of classes for example (1+5)*3 = 18 =filters
                            classes = 1       #if you train more than 1 object you have to change it to your amount of classes
    
-   [convolutional] and [yolo] layer
+   
     in line 1049,1056 change filters = 18
                              classes = 1
                              
-   [convolutional] and [yolo] layer                          
+                           
      in line 1137,1144 change filters = 18
                               classes = 1
     
