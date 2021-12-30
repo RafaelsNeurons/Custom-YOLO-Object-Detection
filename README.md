@@ -86,6 +86,9 @@ OPENCV =1
             5.2 create the file sensor_data/sensor_testing.txt
             5.3 copy the paths of the images in there and split it to 80% training 20% testing 
                       -for example /sensor_data/sensor_images/image1.jpg
+                      
+                      You can use find /darknet/sensor_data/sensor_images/  -name "*.jpg" in your terminal, so you can just copy paste it
+
             
             
      6. Create a folder called 'sensor_labels' inside 'sensor_data'
